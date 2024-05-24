@@ -1,0 +1,300 @@
+<html>
+    <head>
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+                
+                const detailsElements = document.querySelectorAll('.ask details');
+        
+                // Add click event listener to each details element
+                detailsElements.forEach((details) => {
+                    details.addEventListener('click', function () {
+                        // Close any already expanded details elements
+                        detailsElements.forEach((element) => {
+                            if (element !== details && element.hasAttribute('open')) {
+                                element.open = false;
+                            }
+                        });
+                    });
+                });
+            });
+        </script>
+        
+      
+
+        <body>
+
+            <style>
+                .win{
+                    box-shadow: 10px 20px 20px grey;                 
+                    display: top;
+                    margin-bottom: 100px;
+                    padding-left:20px ;
+                    font-size: 70px;
+                }
+                .xwomen{
+                    
+                    position:absolute;
+                    top:20px;                    
+                    margin-left: 650px;
+                    padding: 7px;
+                    margin-top: 45px;
+                    padding-left: 10px;
+                    padding-top: 20px;
+                    padding-bottom: 20px;
+                    border-left: 5px solid black;
+                    background: #aec3b0;
+                    border-radius: 10px;
+                    box-shadow: 10px 20px 20px black;
+                }
+                .xwomen a{
+                    text-decoration: none;
+                    color: black;
+                    padding-right:80px ;
+                    padding: 7px;
+                    border-radius: 9px;
+                    margin-left: 90px;
+                    font-size: 20px;
+                }
+                .home{
+                    display: flex;
+                    
+                }
+                .run{
+                    
+                    width: 500px;
+                    height: 3300px;
+                    box-shadow: 10px 20px 20px grey;
+                    
+                }
+                .rrr{
+                    
+                    width: 900px;
+                    height: 3300px;
+                    margin-left: 15px;
+                    box-shadow: 10px 20px 20px grey;
+                    
+                }
+                .container{
+                    margin-left: 150px;
+                    margin-right: 150px;
+                }
+                
+                .roman{
+                    display: inline;
+                    margin-left: 40px;
+                }
+                .roman img{
+                    box-shadow: 10px 20px 20px grey;
+                }
+                .tom{
+                    display: inline;
+                    margin-left: 40px;
+                }
+                .tom img{
+                    box-shadow: 10px 20px 20px grey;
+                }
+                .ask{
+        height: 550px;
+    }
+ 
+    .ask :hover{
+       background-color: #403d39;
+       color: white;
+    }
+    .ask details{
+        color: white;
+        background-color:black;
+        padding: 20px;
+        margin: 6px;
+        margin-left: 60px;
+        margin-right: 60px;
+        font-size: 23px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    details ins{
+        text-decoration: none;
+    }
+    .run h1{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        position: sticky;
+        
+    }
+    .run li{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        position: sticky;
+    }
+    .naren{
+        
+        padding-left: 100px;
+        margin-top: 20px;
+        
+
+    }
+    .naren iframe{
+        box-shadow: 10px 20px 20px grey;
+    }
+    .xwomen :hover{
+        color:aqua ;
+    }
+
+
+            </style>
+            
+            <div class="win">
+                <i><h1><u>StockFlix</u></h1></i>
+                </div>
+
+                
+                <div class="xwomen">
+                <a href="file:///C:/Users/jegan/Desktop/stock.html/home.html" id="xxi">HOME</a>
+                <a href="#" id="xxj">CONTENT</a>
+                <a href="file:///C:/Users/jegan/Desktop/stock.html/login.html" id="xxx">LOGIN</a>
+                <a href="file:///C:/Users/jegan/Desktop/stock.html/signin.html" id="xxv">SIGN IN</a>
+                </div>
+                <div class="container"></div>
+             <div class="home">   
+             <div class="run">
+                <h1>- CHAPTER 1</h1>
+                <ul>
+                    <li>Capital Market</li>
+                    <li>Philosophy Of Earning</li>
+                    <li>Long/Short</li>
+                    <li>Stock Exchange</li>
+                    <li>Why Stock Market Moves?</li>
+                    <li>Market Participants</li>
+                </ul>
+                <h1>- CHAPTER 2</h1>
+                <ul>
+                    <li>Equity</li>
+                    <li>Index & Sub-Indices</li>
+                    <li>Derivatives</li>
+                    <li>Nifty Weightage</li>
+                    <li>Beta/Volatility</li>
+                    <li>How To Use Varies Products</li>
+                </ul>
+                <h1>- CHAPTER 3</h1>
+                <ul>
+                    <li>Intraday Trading</li>
+                    <li>Scalp Trading</li>
+                    <li>Long/Short</li>
+                    <li>BTST/STBT</li>
+                    <li>Swing Trading</li>
+                    <li>Positional Trading</li>
+                </ul>
+                <h1>- CHAPTER 4</h1>
+                <ul>
+                    <li>Charts</li>
+                    <li>Trends</li>
+                    <li>Supports & Resistance</li>
+                    <li>Indicators</li>
+                    <li>Trading Setup</li>                    
+                </ul>
+                <h1>- CHAPTER 5</h1>
+                <ul>
+                    <li>Some Maths</li>
+                    <li>Trading Process</li>
+                    <li>Trading Process</li>
+                    <li>Brokerage Calculations</li>
+                    <li>Capital Gains Tax On Share Trading</li>
+                    
+                </ul>
+             </div> 
+             <div class="rrr">
+                <div class="ask">
+                    <details>
+                        <summary>What is Stock Market</summary><br>
+                        <ins>The stock market consists of exchanges in which stock shares and other financial securities of publicly held companies are bought and sold.</ins><br><br>
+                        <ins>BASIC OF STOCK MARKET:<br><br>1.Captial Market: financial markets that bring buyers and sellers together to trade stocks, bonds, currencies, and other financial assets</ins>
+                        <ins>2.Philosophy of earning :A fundamental point of The Philosophy of Money is that money brings about personal freedom. The effect of freedom can be appreciated by considering the evolution of economic obligations. When someone is a slave, their whole person is subject to the master.</ins><br><br>
+                        <ins>3.Stock Exchange :a place where shares in companies are bought and sold.</ins><br><br>
+                        <ins>4.Why Stock Market Moves?: By this we mean that share prices change because of supply and demand. If more people want to buy a stock (demand) than sell it (supply), then the price moves up. Conversely, if more people wanted to sell a stock than buy it, there would be greater supply than demand, and the price would fall.</ins><br><br>
+                        <ins>5.Market Participants: he largest investors are investment banks, mutual funds, institutional investors, and retail investors. Traders are also market participants, but they often have a shorter time horizon and are looking for price fluctuations in a stock relative to the market, rather than buying into a security for the long-term.</ins>
+                    </details>
+                    <details>
+                        <summary>Stock Market Products</summary><br>
+                        <ins>1.Equity:Equity is the amount of capital invested or owned by the owner of a company. The equity is evaluated by the difference between liabilities and assets recorded on the balance sheet of a company. The worthiness of equity is based on the present share price or a value regulated by the valuation professionals or investors.</ins><br><br>
+                        <ins>2.Index &Sub-Indices:An index collects data from a variety of companies across industries. Together, that data forms a picture that helps investors compare current price levels with past prices to calculate market performance.noun,plural sub·in·dex·es, sub·in·di·ces [suhb-in-duh-seez]. an index to a part or subdivision of a larger category.</ins><br><br>
+                        <ins>3.Derivatives:A derivative is a formal financial contract that allows an investor to buy and sell an asset for a future date. The expiry date of a derivative contract is fixed and predetermined. Derivative trading in the share market is better than buying the underlying asset since the gains can be substantially inflated</ins><br><br>
+                        <ins>4.Nifty Weightage:The NIFTY 50 Index gives a weightage of 32.48% to Financial Services, 14.46% to IT, 12.99% to Energy, 8.34% to Consumer Goods, 7.16% to Automobiles, and 4.50% to Healthcare. The NIFTY 50 index is a free-float market capitalization index.</ins><br><br>
+                        <ins>5.Beta/Volatility:Beta is a concept that measures the expected move in a stock relative to movements in the overall market. A beta greater than 1.0 suggests that the stock is more volatile than the broader market, and a beta less than 1.0 indicates a stock with lower volatility.</ins><br><br>
+                        <ins>6.How To Use Varies Products: Equity and equity-linked products available for trading in the cash market include stocks, IDRs, ETFs (including those benchmarked the NIFTY indices) and units of closed-ended mutual fund schemes, as well as a segment devoted to the growth of the SME's listed on EMERGE.</ins>
+                    </details>
+                    <details>
+                        <summary>Style Of Trading</summary><br>
+                        <ins>1.Intrady Trading:Intraday trading, also called day trading, is the buying and selling of stocks within the same day. In other words, intraday trading means all positions are squared off before the market closes, and there is no change in ownership of shares as a result of the trades.</ins><br><br>
+                        <ins>2.Scalp Trading: Scalping is a trading style that specializes in profiting off of small price changes and making a fast profit off reselling. In day trading, scalping is a term for a strategy to prioritize making high volumes off small profits.</ins><br><br>
+                        <ins>3.BTST/STBT:BTST stands for "buy today, sell tomorrow" and STBT stands for "sell today, buy tomorrow." These are both types of trading strategies that involve buying and selling securities within a short period of time. </ins><br><br>
+                        <ins>4.Swing Trading:Swing trading is a style of trading that attempts to capture short- to medium-term gains in a stock (or any financial instrument) over a period of a few days to several weeks. Swing traders primarily use technical analysis to look for trading opportunities.</ins><br><br>
+                        <ins>5.Positional TRading:Positional trading is a trading strategy in which traders hold their positions for an extended period, typically from several weeks to months or even years. The strategy's goal is to capitalise on long-term trends in the market rather than focusing on short-term fluctuations</ins>
+                    </details>
+                    <details>
+                        <summary>Technical Analysis</summary><br>
+                        <ins>1.Charts: Charts are graphical displays of price information of securities over time. Often, such charts also show volume.</ins>
+                        <ins>2.Trends:Trend is the direction that prices are moving in, based on where they have been in the past. Trends are made up of peaks and troughs. It is the direction of those peaks and troughs that constitute a market's trend.</ins><br><br>
+                        <ins>3.Support & Resistence: The support and resistance (S&R) are specific price points on a chart expected to attract the maximum amount of either buying or selling. The support price is a price at which one can expect more buyers than sellers. Likewise, the resistance price is a price at which one can expect more sellers than buyers.</ins><br><br>
+                        <ins>4.Indicators: Stock market indicators are essentially quantitative tools applied by traders and investors to interpret financial data. The broad intent is to forecast stock market movements and make profits out of the same.</ins><br><br>
+                        <ins>5.Trading Setup:A trading setup refers to a well-defined and systematic approach that traders use to analyze the foreign exchange market and make informed decisions about their trades. It involves a combination of technical and/or fundamental analysis, along with specific rules and criteria that guide the trader's actions.</ins>
+                    </details>
+                    <details>
+                        <summary>How To Trade Yourself</summary><br>
+                        <ins>1.Some Maths:The P/E Ratio is used to compare the price of a stock to other stocks in the same industry. The market price of a stock is the cost of buying 1 share on the stock market, and earnings per share is the annual per-share earnings reported in the company's financial reports.</ins><br><br>
+                        <ins>2.Trading Platforms:A trading platform is a programme that allows investors and traders to position trades through financial intermediaries and to track accounts. Trading platforms also come bundled with other services, such as quotes in real-time, charting software, news feeds, and even premium analysis</ins><br><br>
+                        <ins>3.Trading Process:The process begins with selecting an individual or company to trade, known as a broker. Then, a Demat account is opened, an order is placed, which is then carried out by the broker and is ultimately settled by the buyer and seller.</ins><br><br>
+                        <ins>4.Brokerage Calculations:Brokerage charge is 0.05% of the total turnover. Suppose the stock you buy costs Rs 100. Then the brokerage charge is 0.05% of Rs 100, which is Rs 0.05. Then, the total brokerage charge on the trading is Rs 0.05+ 0.05, which is Rs 0.10 (for buying and selling).</ins><br><br>
+                        <ins>5.Capital Ganis Tax On Share Trading: Long term capital gains (LTCG) tax is levied on long term capital gains that exceeds the threshold of Rs. 1 lakh in a financial year. LTCG tax rate is 10% for gains in stocks and equity mutual funds and 20% for real estate, debt funds and other assets along with the benefit of indexation./ins>
+                    </details>
+                     <details>
+                        <summary>Key Components Of Fundamental Analysis</summary><br>
+                        <ins>1.Economic Analysis: This involves looking at the overall state of the economy, including factors like GDP growth rates, inflation, interest rates, and employment levels.</ins><br><br>
+                        <ins>2.Industry Analysis: This step assesses the condition and performance of the industry in which the company operates, considering aspects like industry growth, competition, and regulatory environment.</ins><br><br>
+                        <ins>3.Company Analysis: This is a detailed evaluation of the company's financial health, management effectiveness, revenue, profit margins, return on equity, debt levels, and other financial metrics.</ins><br><br>
+                        <ins>4.</ins>
+                    </details>
+                    <details>
+                        <summary>Fundamental Analysis</summary><br>
+                        <ins>Fundamental analysis in the stock market is a method used to evaluate a company's intrinsic value by examining related economic, financial, and other qualitative and quantitative factors. This approach helps investors deterInvestopedia a stock is undervalued or overvalued compared to its current market price.
+                        </ins><br><br>
+                        <ins>The goal is to arrive at a fair market value for the stock by analyzing financial statements such as balance sheets, income statements, cash flow statements, and other filings like the 10-Q and 10-K reports. If the fair market value is higher than the market price, the stock is considered undervalued and may be a good buy. Conversely, if the fair market value is lower, the stock might be overvalued, suggesting it could be time to sell or avoid buying.
+
+                            Fundamental analysis differs from technical analysis, which focuses on studying historical price trends and patterns to predict future price movements without considering the company's financials.</ins>
+                    </details>
+                    <details>
+                        <summary>Common Market Trends</summary><br>
+                        <ins>1.Bull Market: A period of generally rising prices in the stock market, typically driven by strong investor confidence, economic growth, and low unemployment.
+                        </ins><br><br>
+                        <ins>2.Bear Market: A period of declining stock prices, often accompanied by widespread pessimism, economic slowdown, and high unemployment.
+                        </ins><br><br>
+                        <ins>3.Sector Rotation: Investors may rotate their investments among different sectors based on changing economic conditions and market outlook. For example, during times of economic recovery, investors may favor cyclical sectors like industrials and technology.
+                        </ins><br><br>
+                        <ins>4.Interest Rates: Changes in interest rates by central banks can influence market trends. Lower interest rates typically stimulate borrowing and spending, potentially boosting stock prices, while higher rates may have the opposite effect.
+                        </ins><br><br>
+                        <ins>5.Market Volatility: Periods of heightened volatility can result from uncertainty, geopolitical tensions, or unexpected events. Volatility can present both risks and opportunities for investors.
+                        </ins><br><br>
+                        <ins>6.Global Events: Geopolitical events, such as elections, trade tensions, or geopolitical conflicts, can impact market sentiment and drive short-term market trends.
+                        </ins>
+
+                    </details>
+                    <!-- <div class="naren">
+                    <iframe src="https://www.youtube.com/embed/p7HKvqRI_Bo" width="700" height="350" alt="fuck"></iframe>
+                    </div> -->
+                    <center><h4 style="font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 50px;">App Preview</h4></center>
+                    
+                    <div class="roman">
+                        <img src="9.jpg" height="700px" width="400px" alt="fuck">
+                        <img src="10.jpg" height="700px" width="400px" alt="fuck">
+                        
+                    </div>
+                    <center><h4 style="font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 50px;">Prediction</h4></center>
+                    <div class="tom">
+                        <img src="11.jpg" height="700px" width="400px" alt="fuck">
+                        <img src="8.jpg" height="700px" width="400px" alt="fuck">
+                    </div>
+
+                </div>
+            
+             </div> 
+             </div>
+            </div>
+        </body>
+    </head>
+</html>
