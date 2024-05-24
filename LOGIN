@@ -1,0 +1,97 @@
+<html>
+    <head>
+        <body bgcolor="black" >
+            <style>
+                #xmen{
+                    color:grey;
+
+                    padding-left: 850px;
+                    padding-bottom: 140px;
+                    height: 45px;
+                    font-size: 145px;
+                    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                }
+                .gum{
+                    
+                    width: 300px;
+                    padding-left: 20px;
+                    padding: 20px;
+                    height: 400px;
+                    margin-left:100px;
+                    border: 1px solid black;
+                    background-color: transparent;
+                    z-index: -1;
+                    box-shadow: 10px 20px 20px black;
+                }
+                .naren{
+                    position: absolute;
+                    width: 300px;
+                    padding-left: 20px;
+                    padding: 20px;
+                    opacity: 0.3;
+                    height: 400px;
+                    margin-left:100px;
+                    border: 1px solid blue;
+                    background-color: black;
+                    
+                    
+                }
+
+                .gum ::placeholder{
+                    float: left;
+                    
+                    padding-top: 30px;
+
+                }
+                
+                .gum input{
+                    
+                    padding-right: 100px;
+                    margin-right: 40px;
+                    padding-bottom: 30px;
+                    
+                }
+                .gum button{
+                    
+                    padding-right: 100px;
+                    margin-right: 40px;
+                   padding-bottom: 20px;
+                    border-radius: 20px;
+
+                }
+                .gum button p{
+                    border: 1px solid;
+
+                }
+                .pic{
+                    width: fit-content;
+                    position: absolute;
+                }
+                .nonpic{
+                    position: relative;
+                }
+                
+            </style>
+            <div class="pic">
+                <img src="1.jpg" height="1200px" width="1500px">
+            </div>
+            <div class="nonpic">
+            <h1 id="xmen"><i>StockFlix</i></h1>
+            <div class="naren">
+
+            </div>
+            <div class="gum">
+            <table >
+                <h2 style="font-size: 30px;">LOGIN</h2><br><br>
+                <label style="color: black; font-weight: bold;">EMAIL</label>
+                <input type="text" placeholder="Email"></input><br><br>
+                <label style="color: black; font-weight: bold;">PASSWORD</label>
+                <input type="password" placeholder="Password"></input><br><br>
+                <p>Did't have an accout?<a href="file:///C:/Users/jegan/Desktop/stock.html/signin.html">SIGN IN</a> </p>
+                <button style="font-size: 20px; padding-top: 12px;  padding-left: 73px;  ;">login</button>
+            </table>
+        </div>
+        </div>
+        </body>
+    </head>
+</html>
