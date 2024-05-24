@@ -1,0 +1,123 @@
+<html>
+    <head>
+        <body>
+            
+            <style>
+                .xmen{
+                    box-shadow: 10px 20px 20px grey;                 
+                    display: top;
+                    margin-bottom: 100px;
+                    padding-left:20px ;
+                    font-size: 70px;
+                }
+                .xwomen{
+                    
+                    position:absolute;
+                    top:20px;                    
+                    margin-left: 650px;
+                    padding: 7px;
+                    margin-top: 45px;
+                    padding-left: 10px;
+                    padding-top: 20px;
+                    padding-bottom: 20px;
+                    border-left: 5px solid black;
+                    background: #aec3b0;
+                    border-radius: 10px;
+                    box-shadow: 10px 20px 20px black;
+                }
+                .xwomen a{
+                    text-decoration: none;
+                    color: black;
+                    padding-right:80px ;
+                    padding: 7px;
+                    border-radius: 9px;
+                    margin-left: 90px;
+                    font-size: 20px;
+                }
+                .pic{
+                    z-index:-1;
+                    box-shadow: 10px 20px 20px grey;
+                }
+                #xxi{
+                    margin-left: 20px;
+                }
+                .container{
+                    margin-left: 100px;
+                    margin-right: 100px;
+                }
+                .pic{
+                    position: relative;
+                    box-shadow: 10px 20px 20px grey;
+                    margin-left:800px ;
+                    margin-bottom: 20px;
+                }
+                
+                .pic2{
+                    position: relative;
+                    box-shadow: 10px 20px 20px grey;
+                }
+                .pic3{
+                   
+                    box-shadow: 10px 20px 20px grey;
+                    margin-right: 200px;
+                    position: absolute;
+                }
+                .pic4{
+                    
+                    margin-left: 800px;
+                    box-shadow: 10px 20px 20px grey;
+                   
+                    position: relative;
+                
+                }
+                .xwomen :hover{
+                    color: aqua;
+                }
+            </style>
+            
+            
+            <div class="xmen">
+            <i><h1><u>StockFlix</u></h1></i>
+            </div>
+
+            <div class="container">
+            <div class="xwomen">
+            <a href="#" id="xxi">HOME</a>
+            <a href="file:///C:/Users/jegan/Desktop/stock.html/content.home.html" id="xxj">CONTENT</a>
+            <a href="file:///C:/Users/jegan/Desktop/stock.html/login.html" id="xxx">LOGIN</a>
+            <a href="file:///C:/Users/jegan/Desktop/stock.html/signin.html" id="xxv">SIGN IN</a>
+            </div>
+            <h1 style="color: grey; font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 40px; position: absolute; box-shadow: 10px 20px 20px grey;">WELCOME TO STOCK FLIX<br> HERE YOU CAN EXPLORE <br>VARIOUS LEARNING MEDTHOD<br> & IMPOVER YOUR SKILL IN<br> STOCK MARKET </h1>
+            <div class="pic">
+                <img src="5.jpg" height="270px" width="510px" alt="fuck" >
+            </div>
+            <h1 style="color: grey; font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 40px; position: absolute; margin-top: 20px;  margin-left:570px;">YOU HAVE TAKEN<br> THE FIRST STEP TO BECOME<br> ONE OF GREATEST <br> INVESTORS OF ALL TIME </h1><br><br>
+            <div class="pic2">
+                <img src="2.jpg" height="270px" width="510px" alt="fuck" >
+            </div><br><br>
+            
+            <center><h1 style="color: grey; font-size: 40px;  margin-top: 20px; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">POWER-PACKED WITH <BR>EVERYTHING YOU NEED.</h1><center><br>
+            <p style="font-family: Verdana, Geneva, Tahoma, sans-serif; color: gray; font-size: 20px;">" Your premier destination for mastering the art of stock market investing through comprehensive e-learning resources. Whether you're a seasoned trader or a novice investor, our platform is designed to empower you with the knowledge and skills needed to navigate the complexities of the financial markets confidently.
+
+                At StockFlix, we understand that the world of stocks, bonds, and securities can seem daunting to many. That's why we've curated a diverse range of educational materials, from beginner-friendly tutorials to advanced strategies, all crafted by industry experts and seasoned professionals. "</p>
+                <br><br>
+            <div class="pic3">
+                <img src="6.jpg" height="700px" width="500px">
+            </div>
+            <div class="pic4">
+                <img src="7.jpg" height="700px" width="500px">
+            </div><br>
+            <p style="font-family: Verdana, Geneva, Tahoma, sans-serif; color: gray; font-size: 20px;">" Join our community of learners today and embark on a rewarding educational experience that will unlock countless opportunities in the world of finance. "<br><br>
+
+                "Start your journey with <i>StockFlix</i> and take control of your financial future."<br><br>
+
+                
+                "Happy learning and happy investing!"</p>
+
+            </div>
+            <footer style="background: #aec3b0; color: black; padding: 15px;">
+                <center><p>Owned By STOCKFLIX</p><center>
+            </footer>
+        </body>
+    </head>
+</html>
